@@ -1,0 +1,6 @@
+azure:
+  connection_string: "DefaultEndpointsProtocol=https;AccountName=mlfitbit;AccountKey=3GeWzUtBNpDit5Nk7e3gmcKXYweRGPT73EMwfl1XVC7ln+q+RzF4HaYkveVh8xK5XXSiOPg58li+Md4JRT1q6Q==;EndpointSuffix=core.windows.net"
+  account_name : "mlfitbit"
+
+db:
+  string: "mongodb+srv://dbUser:FitBit@fitbit.mmgim.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"

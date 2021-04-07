@@ -1,0 +1,52 @@
+columns:
+  drop_cols: ['Id','ActivityDate','TotalDistance','TrackerDistance']
+  label_column_name: 'Calories'
+
+base:
+  random_state: 27
+  test_size: 0.33
+
+kmeans:
+  lower_bound: 1
+  upper_bound: 11
+  init: 'k-means++'
+
+kneelocater:
+  curve: 'convex'
+  direction: 'decreasing'
+
+KNNImputer:
+  n_neighbors: 3
+  weights: 'uniform'
+
+gridsearch:
+  verbose: 3
+  cv: 5
+
+KNN:
+  n_neighbors: [ 3,5,7,9,11 ]
+  algorithm: [ "auto", "ball_tree", "kd_tree","brute" ]
+  p: [ 1,2 ]
+  leaf_size : [ 15,20,30,35,40 ]
+
+svm:
+  kernel: [ "linear", "poly", "rbf", "sigmoid" ]
+  tol: [ 1.e-3,0.0005,1.e-4,0.001 ]
+  C: [ 0.1,0.5,1,5,10 ]
+  epsilon: [ 0.05,0.1,0.5,1,1.5 ]
+
+bagging:
+  n_estimators: [10,20,25,35,50]
+  bootstrap: True
+  oob_score: True
+
+random_forest:
+  n_estimators : [ 10,20,30 ]
+  max_features : [ "auto", "sqrt", "log2" ]
+  min_samples_split : [ 2,4,8 ]
+  bootstrap : [ True, False ]
+
+linear_regression:
+  fit_intercept : [True, False]
+  normalize : [True, False]
+  copy_X : [True, False]

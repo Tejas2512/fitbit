@@ -1,0 +1,25 @@
+training:
+  bucket: fb-trainfiles
+  good_raw: fb-good-raw
+  bad_raw: fb-bad-raw
+  archive_good_raw: fb-archive-good-raw
+  archive_bad_raw: fb-archive-bad-raw
+  trainingfilefromdb: fb-trainingfilefromdb
+  mastercsv: InputFile.csv
+  bin: fb-myrecycle-bin
+
+modeltraining:
+  bucket: fb-modelsforprediction
+  metadata: fb-metadata
+
+prediction:
+  bucket: fb-predictionfiles
+  good_raw: fb-prediction-good-raw
+  bad_raw: fb-prediction-bad-raw
+  archive_good_raw: fb-prediction-archive-good-raw
+  archive_bad_raw: fb-prediction-archive-bad-raw
+  predictionfilefromdb: fb-predictionfilefromdb
+  predictedfile: fb-predictedcsvfiles
+
+
+
