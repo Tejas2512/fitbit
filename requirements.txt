@@ -11,7 +11,6 @@ chardet==4.0.0
 Click==7.0
 colorhash==1.0.2
 configparser==4.0.2
-cryptography==3.4.7
 cycler==0.10.0
 decorator==4.4.2
 dnspython==2.1.0
