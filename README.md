@@ -66,5 +66,5 @@ Libraries: `sklearn`, `pandas`, `NumPy`, `flask`,` azure-storage`, `pymongo` etc
 
 `docker system prune`
 
-url: `https://fitbit.azurewebsites.net`
+url: `https://fit-bitapp.herokuapp.com/`
 
