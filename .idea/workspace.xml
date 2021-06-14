@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ca3062a5-3c1d-4138-84da-a095d73957da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_monitoringdashboard.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_logging/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/application_logging/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azure_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/azure_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../waferFaultDetection/code/WaferFaultDetection_new" />
+    <property name="last_opened_file_path" value="F:/Internship/Tejas/face mask detection" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">

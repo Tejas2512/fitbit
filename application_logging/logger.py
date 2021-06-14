@@ -4,7 +4,7 @@ import yaml,os
 
 class App_Logger:
 
-    def __init__(self,database = "Training_Logs"):
+    def __init__(self, database="Training_Logs"):
         with open(os.path.join("configfile","connection.yaml"),"r") as file:
             self.config = yaml.safe_load(file)
         self.url = self.config["db"]["string"]

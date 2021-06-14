@@ -158,7 +158,6 @@ class azure_methodes:
             self.logger_object.log(self.file_object,"Error:: {} occurred while reading blobs from {}.".format(e,container_name))
             raise e
 
-
     def upload_blob(self,data,container_name,blob_name):
 
         try:
@@ -173,5 +172,3 @@ class azure_methodes:
 
             self.logger_object.log(self.file_object,"Error:: {} occurred while uploading blob.".format(e))
             raise e
-
-
